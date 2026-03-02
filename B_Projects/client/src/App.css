@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 15px;
+}
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.home-container {
+  padding: 40px;
+}
+
+.page-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.fundraiser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.description {
+  color: #cbd5e1;
+  margin: 10px 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.address {
+  font-size: 12px;
+  color: #94a3b8;
+  word-break: break-all;
+}
+
+.view-btn {
+  background: #6366f1;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.view-btn:hover {
+  background: #4f46e5;
+}
+
+.loading, .empty {
+  color: #94a3b8;
+}
+.navbar {
+  background: #1e293b;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #6366f1;
+}

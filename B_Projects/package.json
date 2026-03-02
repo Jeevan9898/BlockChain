@@ -1,0 +1,14 @@
+{
+  "name": "truffle-project",
+  "version": "0.1.0",
+  "description": "Truffle project with SimpleStorage contract",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.5",
+    "@truffle/hdwallet-provider": "^2.1.7",
+    "openzeppelin-solidity": "^3.4.2",
+    "react-router-dom": "^7.13.0"
+  }
+}
